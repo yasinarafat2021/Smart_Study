@@ -1,0 +1,16 @@
+@media Only screen and (max-width: 767px){
+    html{
+        font-size: 50%;
+    }
+    header{
+        padding:2.2rem 4rem;
+    }
+    #ham-menu{
+        display: block;
+        color: var(--white-shade-1);
+    }
+    nav a#logo,
+    #ham-menu{
+        font-size: var(--heading-font-size-2);
+    }
+}
